@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.athkar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Athkar">
+        <activity android:name=".RegiesterationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".OpenPdf"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Quran"
+            android:label="Quran"/>
+        <activity android:name=".D3aa2" />
+        <activity
+            android:name=".Tasbee7"
+            android:label="Tasbee7" />
+        <activity
+            android:name=".AthkarElmasa2"
+            android:label="Athkar Elmasa2" />
+        <activity
+            android:name=".AthkarElsaba7"
+            android:label="Athkar Elsaba7" />
+        <activity android:name=".MainAthkar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

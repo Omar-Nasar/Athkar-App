@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:id="@+id/item1" android:title="Log Out"></item>
+    <item android:id="@+id/item2" android:title="About Us">
+        <menu>
+            <item android:id="@+id/member1" android:title="Omar Sheref"></item>
+            <item android:id="@+id/member2" android:title="Amr Elghanam"></item>
+            <item android:id="@+id/member3" android:title="Mohamed Nor Eldin"></item>
+            <item android:id="@+id/member4" android:title="Ahmed Mabrouk"></item>
+            <item android:id="@+id/member5" android:title="Ahmed Magdy"></item>
+            <item android:id="@+id/member6" android:title="Ahmed Hossam"></item>
+        </menu>
+    </item>
+</menu>
